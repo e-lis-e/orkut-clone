@@ -33,6 +33,7 @@ export default function RootLayout({
           <Link href={"/"}> Home </Link>
           <Link href={"./login"}> login </Link>
           <Link href={"./profile"}> profile </Link>
+          <Link href={"./recoverPassword"}> recover password </Link>
         </div>
         {children}
       </body>
