@@ -22,7 +22,8 @@ export default function Register() {
                     </h1>
                     <h2>Nome: </h2><input type="name" name="" placeholder="nome" id="name"></input>
                     <h2>E-mail: </h2><input type="email" name="" placeholder="E-mail" id="email"></input>
-                    <h2>Senha: </h2><input type="password" placeholder="Senha" id="password" />
+                    <h2>Escolha sua senha: </h2><input type="password" placeholder="Senha" id="password" />
+                    <h2>Digite a senha novamente: </h2><input type="password" placeholder="Senha" id="password" />
                     <input type="checkbox" name="info-save" />
                     <label>Salvar as minhas informações neste computador. </label>
                     <p></p>
