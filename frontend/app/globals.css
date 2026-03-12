@@ -1,26 +1,86 @@
-@import "tailwindcss";
+@tailwind utilities;
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --orkut-blue-bg: #D4E2FB;
+  --orkut-blue-dark: #6D84B4;
+  --orkut-pink: #E91E63;
+  --orkut-white: #FFFFFF;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background-color: var(--orkut-blue-bg);
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  margin: 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.main-block {
+  display: flex;
+  gap: 20px;
+}
+
+
+.container-block {
+  background-color: #E8EEFA;
+  border: 1px solid #99ABC9;
+  padding: 20px;
+  width: 400px;
+  height: 500px;
+  border-radius: 8px;
+}
+
+.container-block h1 {
+  font-size: 16px;
+  color: #333;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.container-block h2 {
+  font-size: 12px;
+  margin-bottom: 4px;
+  color: #666;
+}
+
+.container-block input[type="email"],
+.container-block input[type="password"] {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #7F9DB9;
+  margin-bottom: 10px;
+  font-size: 13px;
+}
+
+.container-block label {
+  font-size: 11px;
+  color: #333;
+}
+
+.container-block a {
+  display: block;
+  font-size: 10px;
+  color: #0000CC;
+  text-decoration: underline;
+  margin-top: 10px;
+}
+
+.container-block div {
+  margin-top: 20px;
+  padding-top: 15px;
+  border-top: 1px dashed #99ABC9;
+  text-align: center;
+}
+
+.container-block div h2 {
+  font-size: 13px;
+  margin-bottom: 10px;
+}
+.container-block img {
+  display: block;
+  margin: 0 auto 20px auto;
 }
