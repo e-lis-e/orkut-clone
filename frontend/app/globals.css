@@ -47,6 +47,7 @@ body {
   color: #666;
 }
 
+.container-block input[type="name"],
 .container-block input[type="email"],
 .container-block input[type="password"] {
   width: 100%;
