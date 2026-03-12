@@ -6,9 +6,9 @@ export default function Login() {
     return (
         <div className="main-block">
             <div className="container-block">
-                <p/>
+                <p />
                 <Image src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Logo_ORKUT.svg/500px-Logo_ORKUT.svg.png" alt="logo orkut" width={150} height={50} />
-                <p/>
+                <p />
                 <h2> Conecta-se aos seus amigos e familiares usando recados e mensagens instantâneas</h2>
                 <h2>Conheça novas pessoas através de amigos de seus amigos e comunidades</h2>
                 <h2>Compartilhe seus videos, fotos e paixões em um só lugar</h2>
@@ -25,7 +25,7 @@ export default function Login() {
                 <input type="checkbox" name="info-save" />
                 <label>Salvar as minhas informações neste computador. </label>
                 <p></p>
-                <ButtonComponent/>
+                <ButtonComponent />
                 <p></p>
                 <Link href="/recoverPassword">Não consegue acessar a sua conta?</Link>
 
@@ -33,10 +33,7 @@ export default function Login() {
                     <h2>Ainda não é membro?</h2>
                     <Link href="/register">ENTRAR JÁ</Link>
                 </div>
-
             </div>
-
-
         </div>
     )
 }
