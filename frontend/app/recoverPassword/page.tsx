@@ -1,4 +1,4 @@
-export default function recoverPassword() {
+export default function RecoverPassword() {
     return (
         <div>
             
