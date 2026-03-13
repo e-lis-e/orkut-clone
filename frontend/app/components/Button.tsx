@@ -6,7 +6,7 @@ export default function ButtonComponent() {
   const router = useRouter();
 
   return (
-    <button onClick={() => router.push("/")}>
+    <button onClick={() => router.push("../Homepage")}>
       Login
     </button>
   );
