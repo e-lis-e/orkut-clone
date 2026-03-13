@@ -1,6 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
-import ButtonComponent from "./button";
+import ButtonComponent from "../components/button";
+
 
 export default function Login() {
     return (
@@ -9,9 +10,9 @@ export default function Login() {
                 <p />
                 <Image src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Logo_ORKUT.svg/500px-Logo_ORKUT.svg.png" alt="logo orkut" width={150} height={50} />
                 <p />
-                <h2> Conecta-se aos seus amigos e familiares usando recados e mensagens instantâneas</h2>
-                <h2>Conheça novas pessoas através de amigos de seus amigos e comunidades</h2>
-                <h2>Compartilhe seus videos, fotos e paixões em um só lugar</h2>
+                <h2><span style={{ color: 'var(--orkut-pink)' }}>Conecta-se</span> aos seus amigos e familiares usando recados e mensagens instantâneas</h2>
+                <h2><span style={{ color: 'var(--orkut-pink)' }}>Conheça</span> novas pessoas através de amigos de seus amigos e comunidades</h2>
+                <h2><span style={{ color: 'var(--orkut-pink)' }}>Compartilhe</span> seus videos, fotos e paixões em um só lugar</h2>
 
             </div>
 
