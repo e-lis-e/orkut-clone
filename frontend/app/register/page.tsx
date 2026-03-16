@@ -5,7 +5,7 @@ import ButtonComponent from "../components/button";
 export default function Register() {
     return (
         <div>
-            <div className="main-block">
+            <div className="main-block-login">
                 <div className="container-block">
                     <p />
                     <Image src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Logo_ORKUT.svg/500px-Logo_ORKUT.svg.png" alt="logo orkut" width={150} height={50} />
