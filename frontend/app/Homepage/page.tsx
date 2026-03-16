@@ -7,15 +7,15 @@ export default function Home() {
         <Header/>
       <div className="main-home">
         
-        <div className="column-left">
+        <aside className="column-left">
           <h2>Perfil</h2>
-        </div>
-        <div className="column-center">
+        </aside>
+        <main className="column-center">
           <input type="text" placeholder="Escreva seu post" id="post-input"/>
-        </div>
-        <div className="column-right">
+        </main>
+        <aside className="column-right">
           <h2>Amigos</h2>
-        </div>
+        </aside>
       </div>
     </div>
   );
