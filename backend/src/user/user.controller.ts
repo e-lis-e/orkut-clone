@@ -22,7 +22,7 @@ export class UserController {
     return [];
   }
   //GET /user/:id
-  @Get()
+  @Get(':id')
   findOne(@Param('id') id: string) {
     return { id };
   }
